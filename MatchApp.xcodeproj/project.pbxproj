@@ -12,6 +12,9 @@
 		1DCEA4DD2035ADCF0057585A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCEA4DB2035ADCF0057585A /* Main.storyboard */; };
 		1DCEA4DF2035ADCF0057585A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCEA4DE2035ADCF0057585A /* Assets.xcassets */; };
 		1DCEA4E22035ADCF0057585A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCEA4E02035ADCF0057585A /* LaunchScreen.storyboard */; };
+		1DCEA4EA203855200057585A /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCEA4E9203855200057585A /* CardModel.swift */; };
+		1DCEA4EC203857DB0057585A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCEA4EB203857DB0057585A /* Card.swift */; };
+		1DCEA4EE20385C570057585A /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCEA4ED20385C570057585A /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1DCEA4DE2035ADCF0057585A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DCEA4E12035ADCF0057585A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCEA4E32035ADCF0057585A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DCEA4E9203855200057585A /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		1DCEA4EB203857DB0057585A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1DCEA4ED20385C570057585A /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				1DCEA4D72035ADCF0057585A /* AppDelegate.swift */,
 				1DCEA4D92035ADCF0057585A /* ViewController.swift */,
+				1DCEA4E9203855200057585A /* CardModel.swift */,
+				1DCEA4EB203857DB0057585A /* Card.swift */,
+				1DCEA4ED20385C570057585A /* CardCollectionViewCell.swift */,
 				1DCEA4DB2035ADCF0057585A /* Main.storyboard */,
 				1DCEA4DE2035ADCF0057585A /* Assets.xcassets */,
 				1DCEA4E02035ADCF0057585A /* LaunchScreen.storyboard */,
@@ -138,6 +147,9 @@
 			files = (
 				1DCEA4DA2035ADCF0057585A /* ViewController.swift in Sources */,
 				1DCEA4D82035ADCF0057585A /* AppDelegate.swift in Sources */,
+				1DCEA4EA203855200057585A /* CardModel.swift in Sources */,
+				1DCEA4EE20385C570057585A /* CardCollectionViewCell.swift in Sources */,
+				1DCEA4EC203857DB0057585A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
